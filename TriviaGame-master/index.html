@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiefs Trivia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron text-center">
+            <h1>Chiefs Trivia</h1>
+            <div class="text-center">
+              <div id="timer"></div>
+            </div>
+            <div id="chiefs">
+              <p><img src="images/play.png"/></p>
+            </div>
+            <p>
+              <button id="start" class="btn btn-danger btn-lg">Go!</button>
+              <button id="restart" class="btn btn-primary btn-lg" type="button">Restart the Game</button>
+            </p>
+            <div id="panel" class="text-center">
+              <div id="question">
+              </div>
+              <div id="answer">  
+              </div>
+            </div>
+            <div id="result">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+    <script src="javascript/app.js"></script>    
+  </body>
+</html>
